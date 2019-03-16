@@ -16,7 +16,7 @@ eureka:
 security:
     oauth2:
         client:
-            access-token-validity-seconds: 3600
+            access-token-validity-seconds: 86400
             authorized-grant-types: client_credentials,password,refresh_token
             client-id: uppex
             client-secret: $2a$10$p9Pk0fQNAQSesI4vuvKA0OZanDD2
