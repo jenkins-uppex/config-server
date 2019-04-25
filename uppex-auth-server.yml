@@ -27,10 +27,10 @@ spring:
     datasource:
         data: classpath:/sql/data.sql
         driver-class-name: com.mysql.jdbc.Driver
-        password: '159753'
+        password: '159753#*1m2a3i4K'
         platform: mysql
         schema: classpath:/sql/schema.sql
-        url: jdbc:mysql://localhost:3306/apitest?verifyServerCertificate=false&useSSL=false&requireSSL=false
+        url: jdbc:mysql://localhost:3306/uppex-db?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQL5Dialect
